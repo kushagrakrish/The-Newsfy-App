@@ -1,6 +1,6 @@
 export const dataArray = [
   {
-    newsId: 1,
+    newsId: "1",
     imageLink:
       "https://i0.wp.com/regtechafrica.com/wp-content/uploads/2022/06/PayPal-enables-transfer-of-digital-currencies-to-external-wallets.jpg?resize=800%2C400&ssl=1",
     blogType: "News 1",
@@ -16,7 +16,7 @@ export const dataArray = [
    `,
   },
   {
-    newsId: 2,
+    newsId: "2",
     imageLink:
       "https://crypto.news/app/uploads/2022/03/Cryptocurrency_Buy_Sell_Tax_An_Unspoken_Necessity.jpg",
     blogType: "News 2",
@@ -32,7 +32,7 @@ export const dataArray = [
       `,
   },
   {
-    newsId: 3,
+    newsId: "3",
     imageLink:
       "https://static.news.bitcoin.com/wp-content/uploads/2022/12/microstrategy-buys-2500-btc.jpg",
     blogType: "News 3",
@@ -51,7 +51,7 @@ export const dataArray = [
       `,
   },
   {
-    newsId: 4,
+    newsId: "4",
     imageLink:
       "https://watcher.guru/news/wp-content/uploads/2023/01/367464513_0-7_1611411598130_1611411684699_1625212572880-800x450.jpg.webp",
     blogType: "News 4",
@@ -65,7 +65,7 @@ export const dataArray = [
       `,
   },
   {
-    newsId: 5,
+    newsId: "5",
     imageLink:
       "https://www.cryptonewsz.com/wp-content/uploads/2022/12/Mango-Markets-Exploiter-Arrested-In-Puerto-Rico.jpg",
     blogType: "News 5",

@@ -6,6 +6,7 @@ import { dataArray } from "../assests/data";
 const CardDetails = () => {
   const params = useParams();
   console.log(params.newsId);
+  console.log(dataArray);
   const navigate = useNavigate();
   useEffect(() => {}, [params]);
   return (
@@ -13,6 +14,7 @@ const CardDetails = () => {
       {dataArray?.map((data, i) =>
         data.newsId === params.newsId ? (
           <div className='flex items-start justify-between w-2/3 my-12 mx-auto gap-10 md:flex-col md:w-[100%] md:items-center xs:flex-col xs:w-[100%] xs:items-center '>
+            {console.log(data.newsId, "helloS")}
             <img className='w-[40%] rounded-md ' src={data.imageLink} alt='' />
             <div className='md:px-8 md:py-4 xs:px-8 xs:py-4'>
               <h1 className='text-2xl font-semibold mb-4 text-orange-600'>
