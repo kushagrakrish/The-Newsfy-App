@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./index.css";
+import Navbar from "./components/Navbar";
+import NewsCard from "./components/NewsCard";
+import { Route, Routes } from "react-router-dom";
+import CardDetails from "./components/CardDetails";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      <>
+        <h1 className='text-center text-3xl pt-12 pb-10 font-semibold '>
+          The <span className='border-b-orange-500 border-b-4'>Newsfy</span> App
+        </h1>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<NewsCard />} />
+          {/* <Route path='cardDetails'  /> */}
+          <Route path='/newsDetails/:newsId' element={<CardDetails />} />
+        </Routes>
+      </>
     </div>
   );
-}
+};
 
 export default App;
