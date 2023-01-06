@@ -59,9 +59,6 @@ export default function Simple() {
               </div>
             </HStack>
           </div>
-
-          {/* </Flex> */}
-
           {isOpen ? (
             <Box pb={4} display={{ md: "none" }}>
               <Stack paddingLeft={"6"} as={"nav"} spacing={4}>

@@ -14,7 +14,6 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<NewsCard />} />
-          {/* <Route path='cardDetails'  /> */}
           <Route path='/newsDetails/:newsId' element={<CardDetails />} />
         </Routes>
       </>
