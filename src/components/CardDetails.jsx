@@ -5,8 +5,6 @@ import { dataArray } from "../assests/data";
 
 const CardDetails = () => {
   const params = useParams();
-  console.log(params.newsId);
-  console.log(dataArray);
   const navigate = useNavigate();
   useEffect(() => {}, [params]);
   return (
